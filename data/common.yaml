@@ -1,0 +1,2 @@
+my_profile::service_enable: true
+my_profile::service_name: 'sector.service'

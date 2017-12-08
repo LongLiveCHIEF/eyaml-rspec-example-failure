@@ -1,0 +1,46 @@
+{
+  "name": "longlivechief-my_profile",
+  "version": "0.1.0",
+  "author": "LongLiveCHIEF",
+  "summary": "example failure of unit testing module with eyaml data sources in puppet 5",
+  "license": "MIT",
+  "source": "",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.3.0.pre (heads/dockerize-pdk-0-g3680255)",
+  "template-url": "https://github.com/puppetlabs/pdk-module-template",
+  "template-ref": "heads/convert-0-gf513a64"
+}

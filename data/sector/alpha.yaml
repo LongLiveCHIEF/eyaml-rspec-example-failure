@@ -1,0 +1,4 @@
+my_profile::sector_properties:
+  firewall:
+    enabled: true
+    primary_zone: 'alpha'
