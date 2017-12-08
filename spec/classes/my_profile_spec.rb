@@ -10,7 +10,7 @@ describe 'my_profile' do
         }
       end
       it { is_expected.to compile }
-
+      it { is_expected.to contain_file('/var/lib/sector.config') }
       context 'when in alpha sector' do
         let(:facts) do
           super().merge({'sector' => 'alpha'})

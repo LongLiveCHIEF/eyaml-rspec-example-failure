@@ -2,3 +2,4 @@ my_profile::sector_properties:
   firewall:
     enabled: true
     primary_zone: 'alpha'
+    zone_description: "%{lookup('my_profile::file_content')}"
